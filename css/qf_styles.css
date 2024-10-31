@@ -1,0 +1,45 @@
+/* Chrome, Safari, Edge, Opera */
+.q-field-wrapper input::-webkit-outer-spin-button,
+.q-field-wrapper input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.q-field-wrapper input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.q-field-wrapper {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.qf-decrease-btn:hover,
+.qf-increase-btn:hover {
+    cursor: pointer;
+}
+
+.qf-decrease-btn,
+.qf-increase-btn {
+    background: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qf-decrease-btn svg,
+.qf-increase-btn svg {
+    fill: #fff;
+    width: 14px;
+}
+
+.qf-input-field {
+    width: 55px !important;
+    margin: 0 10px;
+    text-align: center;
+}
